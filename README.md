@@ -1,2 +1,2 @@
 # AI-Professor-Chatbots
-Pagina Web de las clases particulare
+Pagina Web de las clases particulares
