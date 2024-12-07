@@ -1,0 +1,161 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and Typography */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Container (for content centering) */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(135deg, #1a73e8, #ff7f50);
+    color: white;
+    padding: 100px 20px;
+    text-align: center;
+    border-bottom: 2px solid #fff;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cta-button {
+    background-color: #ff7f50;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #ff6347;
+}
+
+/* Features Section */
+#features {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+#features h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+.feature {
+    margin-bottom: 30px;
+}
+
+.feature h3 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #1a73e8;
+}
+
+.feature p {
+    font-size: 1.2em;
+    color: #666;
+}
+
+/* How It Works Section */
+#how-it-works {
+    padding: 60px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+#how-it-works h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #1a73e8;
+}
+
+#how-it-works p {
+    font-size: 1.2em;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #666;
+}
+
+/* Call to Action Section */
+#cta {
+    background-color: #1a73e8;
+    padding: 60px 20px;
+    text-align: center;
+    color: white;
+}
+
+#cta h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+#cta p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    font-size: 1em;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+
+    .hero h1 {
+        font-size: 2.2em;
+    }
+
+    .cta-button {
+        font-size: 1.1em;
+    }
+
+    #features h2 {
+        font-size: 2em;
+    }
+
+    .feature h3 {
+        font-size: 1.8em;
+    }
+
+    #how-it-works h2 {
+        font-size: 2em;
+    }
+}
